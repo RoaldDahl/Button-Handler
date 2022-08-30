@@ -10,8 +10,8 @@ async function loadButtons(client) {
     if (!button.id) return;
     
     client.buttons.set(button.id, button);
-    table.setHeading(`Folder`, `Button ID`, `Status`);
-    table.addRow(`${button.folder}`, `${button.id}`, "🟩 Success");
+    table.setHeading(`Button ID`, `Status`);
+    table.addRow(`${button.id}`, "🟩 Success");
   });
 
   return console.log(table.toString())
