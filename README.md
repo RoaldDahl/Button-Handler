@@ -7,4 +7,4 @@
 4. Place `buttonListener.js` inside of your events folder.
 5. Change the **ID** inside of the `buttonListener.js` file to your ID.
 ## Important:
-1. Don't forget to change file paths to your needs
+1. Don't forget to change file paths to your needs.
